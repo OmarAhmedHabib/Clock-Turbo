@@ -40,6 +40,7 @@ body {
     font-weight: 500;
     color: #333;
     position: absolute;
+    animation: colorChange 5s infinite;
 }
 
 .hour-1 { top: 2.5rem; right: 8.125rem; }
@@ -119,3 +120,11 @@ body {
 .minute-hand .hand, .hour-hand .hand, .second-hand .hand {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
+@keyframes colorChange {
+    0% { color: #333; }
+    25% { color: #007BFF; }
+    50% { color: #FF0000; }
+    75% { color: #00FF00; }
+    100% { color: #333; }
+}
+
