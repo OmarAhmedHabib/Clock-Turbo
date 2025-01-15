@@ -4,6 +4,18 @@
         height: 15rem;
         border-width: 0.5rem; /* تقليل سمك الحدود */
     }
+    .hour-1 { top: 0.625rem; right: 4.0625rem; }
+    .hour-2 { top: 1.9525rem; right: 1.405rem; }
+    .hour-3 { top: 3.67rem; right: 0.3125rem; }
+    .hour-4 { top: 5.39rem; right: 0.5rem; }
+    .hour-5 { top: 7.4675rem; right: 3rem; }
+    .hour-6 { bottom: 0rem; left: 7.5rem; }
+    .hour-7 { top: 7.7175rem; left: 3.5625rem; }
+    .hour-8 { top: 5.89rem; left: 0.8125rem; }
+    .hour-9 { top: 3.67rem; left: 0.3125rem; }
+    .hour-10 { top: 1.9525rem; left: 1.405rem; }
+    .hour-11 { top: 0.625rem; left: 4.0625rem; }
+    .hour-12 { top: 0.15625rem; left: 7.34rem; }
 
     .hour {
         font-size: 1rem; /* تقليل حجم الخط */
