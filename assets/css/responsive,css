@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+    .clock-Egypt {
+        width: 15rem; /* حجم أصغر للشاشات الصغيرة */
+        height: 15rem;
+        border-width: 0.5rem; /* تقليل سمك الحدود */
+    }
+
+    .hour {
+        font-size: 1rem; /* تقليل حجم الخط */
+    }
+
+    .brand {
+        font-size: 1rem; /* تقليل حجم الخط */
+        top: 2.5rem;
+    }
+
+    .minute-hand .hand {
+        height: 5rem; /* تقليل طول عقرب الدقائق */
+        top: -5rem;
+    }
+
+    .hour-hand .hand {
+        height: 3.5rem; /* تقليل طول عقرب الساعات */
+        top: -3.5rem;
+    }
+
+    .second-hand .hand {
+        height: 5rem; /* تقليل طول عقرب الثواني */
+        top: -5rem;
+    }
+}
