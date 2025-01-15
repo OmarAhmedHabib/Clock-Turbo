@@ -1,8 +1,9 @@
-@media (max-width: 768px) {
+/* تصميم لـ max-width: 770px */
+@media (max-width: 770px) {
     .clock-Egypt {
-        width: 15rem; /* حجم أصغر للشاشات الصغيرة */
-        height: 15rem;
-        border-width: 0.5rem; /* تقليل سمك الحدود */
+        width: 12rem; /* حجم أصغر للشاشات المتوسطة */
+        height: 12rem;
+        border-width: 0.4rem; /* تقليل سمك الحدود */
     }
 
     .hour {
@@ -11,22 +12,22 @@
 
     .brand {
         font-size: 1rem; /* تقليل حجم الخط */
-        top: 2.5rem;
+        top: 2rem;
     }
 
     .minute-hand .hand {
-        height: 5rem; /* تقليل طول عقرب الدقائق */
-        top: -5rem;
+        height: 4.5rem; /* تقليل طول عقرب الدقائق */
+        top: -4.5rem;
     }
 
     .hour-hand .hand {
-        height: 3.5rem; /* تقليل طول عقرب الساعات */
-        top: -3.5rem;
+        height: 3rem; /* تقليل طول عقرب الساعات */
+        top: -3rem;
     }
 
     .second-hand .hand {
-        height: 5rem; /* تقليل طول عقرب الثواني */
-        top: -5rem;
+        height: 4.5rem; /* تقليل طول عقرب الثواني */
+        top: -4.5rem;
     }
 
     /* تعديل مواضع الأرقام باستخدام النسب المئوية */
@@ -43,6 +44,8 @@
     .hour-11 { top: 6.25%; left: 40.625%; }
     .hour-12 { top: 1.5625%; left: 50%; transform: translateX(-50%); }
 }
+
+/* تصميم لـ max-width: 570px */
 @media (max-width: 570px) {
     .clock-Egypt {
         width: 10rem; /* حجم أصغر للشاشات الصغيرة */
@@ -75,16 +78,61 @@
     }
 
     /* تعديل مواضع الأرقام باستخدام النسب المئوية */
-    .hour-1 { top: 6.25%; right: 40.625%; }
+    .hour-1 { top: 6.25%; right: 26.625%; }
     .hour-2 { top: 19.525%; right: 14.05%; }
     .hour-3 { top: 36.7%; right: 3.125%; }
     .hour-4 { top: 53.9%; right: 5%; }
-    .hour-5 { top: 74.675%; right: 30%; }
+    .hour-5 { top: 75.675%; right: 17%; }
     .hour-6 { bottom: 0%; left: 50%; transform: translateX(-50%); }
-    .hour-7 { top: 77.175%; left: 35.625%; }
+    .hour-7 { top: 80.175%; left: 20.625%; }
     .hour-8 { top: 58.9%; left: 8.125%; }
     .hour-9 { top: 36.7%; left: 3.125%; }
     .hour-10 { top: 19.525%; left: 14.05%; }
-    .hour-11 { top: 6.25%; left: 40.625%; }
+    .hour-11 { top: 6.25%; left: 29.625%; }
+    .hour-12 { top: 1.5625%; left: 50%; transform: translateX(-50%); }
+}
+@media (max-width: 755px) {
+    .clock-Egypt {
+        width: 10rem; /* حجم أصغر للشاشات الصغيرة */
+        height: 10rem;
+        border-width: 0.3rem; /* تقليل سمك الحدود */
+    }
+
+    .hour {
+        font-size: 0.8rem; /* تقليل حجم الخط */
+    }
+
+    .brand {
+        font-size: 0.6rem; /* تقليل حجم الخط */
+        top: 1.5rem;
+    }
+
+    .minute-hand .hand {
+        height: 3.5rem; /* تقليل طول عقرب الدقائق */
+        top: -3.5rem;
+    }
+
+    .hour-hand .hand {
+        height: 2.5rem; /* تقليل طول عقرب الساعات */
+        top: -2.5rem;
+    }
+
+    .second-hand .hand {
+        height: 3.5rem; /* تقليل طول عقرب الثواني */
+        top: -3.5rem;
+    }
+
+    /* تعديل مواضع الأرقام باستخدام النسب المئوية */
+    .hour-1 { top: 6.25%; right: 26.625%; }
+    .hour-2 { top: 19.525%; right: 14.05%; }
+    .hour-3 { top: 36.7%; right: 3.125%; }
+    .hour-4 { top: 53.9%; right: 5%; }
+    .hour-5 { top: 75.675%; right: 17%; }
+    .hour-6 { bottom: 0%; left: 50%; transform: translateX(-50%); }
+    .hour-7 { top: 80.175%; left: 20.625%; }
+    .hour-8 { top: 58.9%; left: 8.125%; }
+    .hour-9 { top: 36.7%; left: 3.125%; }
+    .hour-10 { top: 19.525%; left: 10.05%; }
+    .hour-11 { top: 6.25%; left: 27.625%; }
     .hour-12 { top: 1.5625%; left: 50%; transform: translateX(-50%); }
 }
