@@ -3,7 +3,8 @@
     .clock-Egypt {
         width: 12rem; /* حجم أصغر للشاشات المتوسطة */
         height: 12rem;
-        border-width: 0.4rem; /* تقليل سمك الحدود */
+        border-width: 0.4rem;
+        z-index: 9000; /* تقليل سمك الحدود */
     }
 
     .hour {
@@ -50,7 +51,8 @@
     .clock-Egypt {
         width: 10rem; /* حجم أصغر للشاشات الصغيرة */
         height: 10rem;
-        border-width: 0.3rem; /* تقليل سمك الحدود */
+        border-width: 0.3rem;
+        z-index: 9000; /* تقليل سمك الحدود */
     }
 
     .hour {
@@ -93,18 +95,21 @@
 }
 @media (max-width: 755px) {
     .clock-Egypt {
-        width: 10rem; /* حجم أصغر للشاشات الصغيرة */
-        height: 10rem;
-        border-width: 0.3rem; /* تقليل سمك الحدود */
+        width: 20rem; /* حجم أصغر للشاشات الصغيرة */
+        height: 20rem;
+        border-width: 0.56rem; /* تقليل سمك الحدود */
+        z-index: 9000;
     }
 
     .hour {
-        font-size: 0.8rem; /* تقليل حجم الخط */
+        font-size: 1.90rem; /* تقليل حجم الخط */
     }
 
     .brand {
-        font-size: 0.6rem; /* تقليل حجم الخط */
-        top: 1.5rem;
+        font-size: 1rem; /* تقليل حجم الخط */
+        font-style: oblique;
+        top: 9.5rem;
+        left: 6.25rem;
     }
 
     .minute-hand .hand {
