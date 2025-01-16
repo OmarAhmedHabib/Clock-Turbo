@@ -27,6 +27,16 @@ body {
     position: absolute;
 
 }
+.clock-Egypt span{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    background-color: #0000006b;
+    z-index: 2000;
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
 
 .pont {
     width: 1rem;
@@ -41,8 +51,8 @@ body {
 }
 
 .hour {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 700;
     color: #333;
     position: absolute;
     animation: colorChange 5s infinite;
@@ -68,6 +78,7 @@ body {
     position: absolute;
     top: 19.62rem;
     left: 34.5%;
+    z-index: 9000;
 }
 
 .minute-hand-wrapper, .hour-hand-wrapper, .second-hand-wrapper {
@@ -83,9 +94,11 @@ body {
 
 .minute-hand .hand, .hour-hand .hand, .second-hand .hand {
     position: absolute;
-    background-color: #270646;
+    background-color: #a3549f;
+    font-weight: 900;
     box-shadow: 1rem 1rem 5rem #ff000033;
     transform-origin: bottom center;
+    z-index: 9000;
 }
 
 .minute-hand .hand {
@@ -105,7 +118,7 @@ body {
 .second-hand .hand {
     width: 0.15rem;
     height: 12.5rem;
-    background-color: #d0ff0098;
+    background-color: #ff9900;
     top: -12.5rem;
     left: -0.075rem;
 }
@@ -127,11 +140,11 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 @keyframes colorChange {
-    0% { color: #333; }
-    25% { color: #062341b0; }
-    50% { color: #570b0bb6; }
-    75% { color: #3c06528f; }
-    100% { color: #053a1b; }
+    0% { color: #000000; }
+    25% { color: #022e02; }
+    50% { color: #040a2c; }
+    75% { color: #21022e; }
+    100% { color: #000201fa; }
 }
 @import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
 
@@ -167,13 +180,14 @@ body:before, body:after {
   box-sizing: border-box;
   transform: rotatey(45deg) skewY(-13deg);
   z-index: 1;
-  content: "NOSFERATU";
+  content: "Welcome to my website";
   font-size: 12vmin;
   padding-left: 3vmin;
+  z-index: 400;
 }
 
 body:after {
-  content: "A Symphony of Horror        1922 - 2022";
+  content: "A TURBO of HouR       1999 - 2025";
   top: 27vmin;
   font-size: 3.15vmin;
   padding-left: 4vmin;
@@ -386,7 +400,7 @@ https://codepen.io/bullerb/pen/BzKzvK
     width:100%;
     height: 9vw;
     min-height: 8rem;
-    background:#FFBD4D;
+    background:#3308038e;
   }
   
   .ternary-system{
@@ -400,7 +414,8 @@ https://codepen.io/bullerb/pen/BzKzvK
   .sun{
     position:relative;
     border-radius:50%;
-    background:#FFDE72;
+    background:#86520359;
+    z-index: 100;
   }
   
   .sun.primary{
